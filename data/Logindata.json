@@ -1,0 +1,18 @@
+[
+{
+  "testName":"valid login",
+  "email":"umang@yopmail.com",
+  "password":"Umang@123",
+  "validity":"valid",
+  "name":"Laura",
+  "expected":"Success"
+},
+  {
+  "testName":"invalid login",
+  "email":"invalidqa@example.com",
+  "password":"test123",
+  "validity":"invalid",
+   "invalidname":"Umang",
+   "expected":"failure" 
+  }
+]

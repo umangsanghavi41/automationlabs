@@ -1,0 +1,27 @@
+{
+  "name": "frameworkpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:master":"playwright test --grep @master",
+    "test:sanity": "playwright test --grep @sanity",
+    "test:regression":"playwright test --grep @regression",
+    "test:smoke":"playwright test --grep @smoke",
+    "test:regression:headed":"playwright test --headed --grep @regression",
+    "test:sanity:headed":"playwright test --headed --grep @sanity",
+    "test:smoke:headed": "playwright test --headed --grep @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.1",
+    "allure-playwright": "^3.4.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.2.0",
+    "csv-parse": "^6.1.0"
+  }
+}
